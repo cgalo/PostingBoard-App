@@ -28,6 +28,7 @@ export class PostCreateComponent{
             return;
         }
         
-        this.postsService.addPosts(form.value.title, form.value.content);
+        this.postsService.addPosts(form.value.title, form.value.content);   //Save the given post
+        form.resetForm();                                                   //Reset the form after saving it
     }   //End of onAddPost
-}
+}   //End of PostCreateComponent class
