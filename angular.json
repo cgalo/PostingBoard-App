@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "PostingBoard-App"
+  "defaultProject": "PostingBoard-App",
+  "cli": {
+    "analytics": "0533ad63-d704-46b7-a9ee-54686d14d300"
+  }
 }
